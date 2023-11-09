@@ -1,0 +1,61 @@
+.CharacterDetailContainer{
+    flex:3;
+}
+
+.CharacterDetailContainer_character{
+    background-color: var(--primary-color);
+    display:flex;
+    gap:0.3rem;
+    margin-bottom: 1rem;
+    border-radius: 0.3rem;
+    overflow: hidden;
+}
+.CharacterDetailContainer_character_image{
+    flex:1
+}
+.CharacterDetailContainer_character_description{
+    flex:2;
+    padding: 0.3rem;
+}
+
+/* ! CharacterDetailsEpisodes component--------------------------------------- */
+.CharacterDetailsEpisodesContainer{
+    background-color:var(--primary-color);
+    padding: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    border-radius: 0.3rem;
+    max-height: 20rem;
+    overflow: auto;
+}
+.CharacterDetailsEpisodesContainer::-webkit-scrollbar {
+    display: none;
+  }
+  .CharacterDetailsEpisodesContainer::-webkit-scrollbar{
+  -ms-overflow-style: none;
+  scrollbar-width: none; 
+  }
+.CharacterDetailsEpisodesContainer_header{
+    margin-bottom: 10px;
+}
+.CharacterDetailsEpisodesContainer_content{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.rotateArrowSortEarliest{
+    rotate: 180deg;
+    transition: all 0.3s ease-in-out;
+}
+.rotateArrowSortLatest{
+    rotate: 0deg;
+    transition: all 0.3s ease-in-out;
+}
+
+/* ! Episode component--------------------------------------- */
+.rickBadge{
+    padding: 0.1rem 1rem;
+    border-radius: 30rem;
+    background: var(--secondary-color);
+}

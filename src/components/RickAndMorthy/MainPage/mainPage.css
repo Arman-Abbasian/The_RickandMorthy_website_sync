@@ -1,0 +1,20 @@
+.MainContainer{
+    padding: 1rem;
+}
+.MainContainer_main{
+    display: flex;
+    gap: 1rem;
+}
+@media only screen and (min-width: 1080px) {
+    .MainContainer{
+        width: 80%;
+    }
+    
+}
+@media only screen and (max-width: 500px) {
+    .MainContainer_main{
+        flex-direction: column;
+        gap: 2rem;
+    }   
+}
+
