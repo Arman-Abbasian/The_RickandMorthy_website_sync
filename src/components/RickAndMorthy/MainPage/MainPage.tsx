@@ -3,7 +3,7 @@ import CharacterList from "../CharacterList/CharacterList"
 import Header from "../Header/Header";
 import "./mainPage.css";
 import {useState} from 'react';
-import {characterss, episodes} from "../../../api/rickAndMorthy"
+import {characterss, episodes} from "../../api/rickAndMorthy"
 import Modal from "../Modal/Modal";
 
 export interface ICharacter {

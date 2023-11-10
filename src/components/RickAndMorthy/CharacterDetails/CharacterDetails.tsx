@@ -4,7 +4,7 @@ import { ICharacter, IEpisode } from "../MainPage/MainPage";
 import NameAndInfos from "../NameAndInfos/NameAndInfos";
 import "./characterDetails.css";
 import { AiOutlineArrowUp } from "react-icons/ai";
-import { episodes } from "../../../api/rickAndMorthy";
+import { episodes } from "../../api/rickAndMorthy";
 
 interface ICharacterDetailsProps{
   favorites:ICharacter[];
