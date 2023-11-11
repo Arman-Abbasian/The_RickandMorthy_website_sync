@@ -37,7 +37,7 @@ interface Origin {
 function MainPage() {
   const favoriteState =()=> {
     if(localStorage.getItem("favorites"))  {
-      const favorites:ICharacter[] =JSON.parse(localStorage.getItem("favorites"));
+      const favorites:ICharacter[] =JSON.parse(localStorage.getItem("favorites")!);
       return favorites
     }
     return []

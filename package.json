@@ -1,6 +1,7 @@
 {
   "name": "the-rickandmorthy-website-sync",
   "private": true,
+  "homepage":"http://Arman-Abbasian.github.io/The_RickandMorthy_website_sync",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
